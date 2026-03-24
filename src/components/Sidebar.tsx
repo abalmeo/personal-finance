@@ -10,6 +10,7 @@ import {
   Receipt,
   PieChart,
   Sparkles,
+  BookOpen,
   Menu,
   X,
 } from "lucide-react";
@@ -18,6 +19,7 @@ const navItems = [
   { label: "Dashboard", icon: LayoutDashboard, href: "/" },
   { label: "FIRE Calculator", icon: Flame, href: "/fire" },
   { label: "Spending Reality", icon: Sparkles, href: "/spending-reality" },
+  { label: "Research", icon: BookOpen, href: "/research" },
   { label: "Net Worth", icon: TrendingUp, href: "/net-worth" },
   { label: "Expenses", icon: Receipt, href: "/expenses" },
   { label: "Investments", icon: PieChart, href: "/investments" },
